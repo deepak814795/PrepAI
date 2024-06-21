@@ -122,20 +122,6 @@ function RecordAnswerSection({mockInterviewQuestion,activeQuestionIndex,intervie
             <h2 className='text-primary flex gap-2 items-center'>
               <Mic/>  Record Answer</h2> }</Button>
 
-              <h1>Recording: {isRecording.toString()}</h1>
-      <button onClick={isRecording ? stopSpeechToText : startSpeechToText}>
-        {isRecording ? 'Stop Recording' : 'Start Recording'}
-      </button>
-      <ul>
-        {results.map((result) => (
-          <li key={result.timestamp}>{result.transcript}</li>
-        ))}
-        {interimResult && <li>{interimResult}</li>}
-      </ul>
-
-            
-      
-     
     </div>
   )
 }
