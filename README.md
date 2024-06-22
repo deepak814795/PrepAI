@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Mock Interview Platform
 
-## Getting Started
+[Live Demo](https://prepai-deepak-kushwaha.vercel.app/)
 
-First, run the development server:
+A platform to help users take mock interviews using Generative AI. Users can select their job description, tech stack, and years of experience. The AI then provides interview questions based on the input. Users can record their answers, which are converted to text and evaluated by the AI, providing feedback and a rating.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **<span style="color:#007FFF">React</span>**: For building the user interface.
+- **<span style="color:#007FFF">JavaScript</span>**: The main programming language used.
+- **<span style="color:#007FFF">Whisper LLM</span>**: For converting speech to text.
+- **<span style="color:#007FFF">Generative AI</span>**: For generating interview questions and evaluating responses.
+- **<span style="color:#007FFF">Drizzle ORM</span>**: For database management.
+- **<span style="color:#007FFF">Neon SQL Database</span>**: For storing user data and interview details.
+- **<span style="color:#007FFF">Clerk</span>**: For authentication and user management.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Personalized Questions:** Generate questions based on the selected job description, tech stack, and experience.
+- **Voice Recording:** Record answers using the built-in audio recorder.
+- **Speech-to-Text:** Convert recorded audio answers to text.
+- **AI Evaluation:** Get feedback, ratings, and areas of improvement for each answer.
+- **User-Friendly Interface:** Easy-to-use interface for a seamless experience.
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+### Prerequisites
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Node.js (version 14.x.x or higher)
+- npm (version 6.x.x or higher) or yarn (version 1.x.x or higher)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Clone the Repository
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```javascript
+git clone https://github.com/your-username/mock-interview-platform.git
+cd mock-interview-platform
