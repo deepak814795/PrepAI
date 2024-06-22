@@ -52,15 +52,11 @@ const ComponentName = () => {
                 </div>
     
                 <div class="lg:col-span-3 hidden md:block">
-    <div class="relative p-2 rounded-lg">
-        <div class="absolute inset-0 bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] blur-xl opacity-50"></div>
-        {/* Uncomment the following line if you want to show a single image initially */}
-        {/* <img class="relative w-full h-full object-cover rounded-lg shadow-xl" src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80" alt="Image with gradient border"/> */}
-        
-        {/* Use Carousel component with images array */}
-        <Carousel/>
-    </div>
-</div>
+                    <div class="relative p-2 rounded-lg">
+                        <div class="absolute inset-0 bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] blur-xl opacity-50"></div>
+                        <Carousel/>
+                    </div>
+                </div>
 
 
 
